@@ -1,0 +1,45 @@
+{
+  "name": "ribbon-app",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix \"**/*.{ts,tsx}\""
+  },
+  "engines": {
+    "node": "16.13.1"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.10",
+    "@chakra-ui/react": "^2.3.4",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@hookform/resolvers": "^2.9.8",
+    "axios": "^0.27.2",
+    "framer-motion": "^7.4.0",
+    "leaflet": "^1.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.36.1",
+    "react-leaflet": "^4.1.0",
+    "react-router-dom": "^6.4.1",
+    "ribbon-client": "^0.0.1-beta.31",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.8.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.3"
+  }
+}
